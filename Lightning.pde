@@ -12,7 +12,7 @@ void setup()
   strokeWeight(3);
   PImage img;
   String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
-  @pjs preload = url;
+  //@pjs preload = url;
   img = loadImage(url);
   image(img,200,150);
 }
