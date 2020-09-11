@@ -3,13 +3,15 @@ int startY = 160;
 int endX = 300;
 int endY = 0;
 
+
 void setup()
 {
   size(300,300);
   background(23,139,228);
   strokeWeight(3);
   PImage img;
-  String url = "elephant.png";
+  String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
+  @pjs preload = url;
   img = loadImage(url);
   image(img,200,150);
 }
