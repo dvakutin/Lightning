@@ -9,7 +9,7 @@ void setup()
   background(23,139,228);
   strokeWeight(3);
   PImage img;
-  img = loadImage("elephant.png");
+  img = loadImage("/elephant.png");
   image(img,200,150);
 }
 
