@@ -2,6 +2,8 @@ int startX = 200;
 int startY = 160;
 int endX = 300;
 int endY = 0;
+String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
+@pjs preload = url;
 
 
 void setup()
@@ -10,8 +12,8 @@ void setup()
   background(23,139,228);
   strokeWeight(3);
   PImage img;
-  String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
-  @pjs preload = url;
+  //String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
+  //@pjs preload = url;
   img = loadImage(url);
   image(img,200,150);
 }
