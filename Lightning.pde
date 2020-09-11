@@ -9,7 +9,8 @@ void setup()
   background(23,139,228);
   strokeWeight(3);
   PImage img;
-  img = loadImage("Lightning/elephant.png");
+  String url = "https://github.com/dvakutin/Lightning/blob/master/elephant.png";
+  img = loadImage(url, "png");
   image(img,200,150);
 }
 
