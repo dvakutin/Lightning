@@ -1,15 +1,15 @@
+/* @pjs preload="elephant.png"; */
 int startX = 200;
 int startY = 160;
 int endX = 300;
 int endY = 0;
+PImage img = loadImage("elephant.png");
 
 void setup()
 {
   size(300,300);
   background(23,139,228);
   strokeWeight(3);
-  PImage img;
-  img = loadImage("elephant.png");
   image(img,200,150);
 }
 
@@ -41,3 +41,4 @@ void mousePressed()
  endX = 300;
  endY = 0;
 }
+
