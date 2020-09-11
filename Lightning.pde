@@ -5,7 +5,7 @@ int endY = 0;
 
 void setup()
 {
-  size(300,300);
+  size(900,900);
   background(23,139,228);
   strokeWeight(3);
   PImage img;
